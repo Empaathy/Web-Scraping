@@ -1,24 +1,24 @@
 {
-  "name": "scrapping",
+  "name": "web-scraping",
   "version": "1.0.0",
-  "description": "",
+  "description": "Exercice de web scraping demandé par Click2Buy",
   "main": "index.js",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "puppeteer": "^13.5.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Empaathy/Scrapping.git"
+    "url": "git+https://github.com/Empaathy/Web-Scraping.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Empaathy/Scrapping/issues"
+    "url": "https://github.com/Empaathy/Web-Scraping/issues"
   },
-  "homepage": "https://github.com/Empaathy/Scrapping#readme",
-  "dependencies": {
-    "mysql": "^2.18.1",
-    "puppeteer": "^13.5.1"
-  }
+  "homepage": "https://github.com/Empaathy/Web-Scraping#readme"
 }
